@@ -1,0 +1,16 @@
+name: ipyigv
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+    - defaults
+    - bioconda
+    - conda-forge
+dependencies:
+    - python=3.8
+    - jupyterlab=3
+    - scipy
+    - pandas
+    - matplotlib
+    - ipyigv
+
