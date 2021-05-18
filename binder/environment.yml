@@ -8,9 +8,12 @@ channels:
     - conda-forge
 dependencies:
     - python=3.8
+    - pip
     - jupyterlab=3
     - scipy
     - pandas
     - matplotlib
     - ipyigv
+    - pip:
+        - igv_jupyterlab
 
